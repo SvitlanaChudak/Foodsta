@@ -1,0 +1,42 @@
+body {
+    background-color: $color-white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: $color-black-primary;
+}
+button {
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
